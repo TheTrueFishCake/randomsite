@@ -34,6 +34,11 @@ a {
     font-family: tahomaOld, serif;
 }
 
+hr {
+    height: 2px;
+    background-color: black;
+}
+
 @font-face {
     font-family: 'tahomaOld';
     src: url('fonts/tahoma/tahoma.ttf'),
