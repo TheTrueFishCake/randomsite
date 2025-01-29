@@ -1,0 +1,43 @@
+/*This is meant to mimic the style of default windows XP*/
+
+p {
+    font-family: tahomaOld, serif;
+    font-size: 16px;
+    color: #000000;
+}
+h1 {
+    font-family: tahomaOld, serif;
+    color: #000000;
+}
+h2 {
+    font-family: tahomaOld, serif;
+    color: #000000;
+}
+h3 {
+    font-family: tahomaOld, serif;
+    color: #000000;
+}
+h4 {
+    font-family: tahomaOld, serif;
+    color: #000000;
+}
+h5 {
+    font-family: tahomaOld, serif;
+    color: #000000;
+}
+h6 {
+    font-family: tahomaOld, serif;
+    color: #000000;
+}
+
+a {
+    font-family: tahomaOld, serif;
+}
+
+@font-face {
+    font-family: 'tahomaOld';
+    src: url('fonts/tahoma/tahoma.ttf'),
+        url('fonts/tahoma/tahomabd.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
