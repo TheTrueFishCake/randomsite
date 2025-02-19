@@ -30,11 +30,6 @@ h6 {
     color: #ffffff;
 }
 
-a {
-    font-family: tahomaOld, serif;
-    color: #979696;
-}
-
 hr {
     height: 2px;
     background-color: black;
@@ -52,3 +47,23 @@ html {
     font-weight: normal;
     font-style: normal;
 }
+
+/* unvisited link */
+a:link {
+    color: rgb(164, 164, 164);
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(211, 211, 211);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: rgb(244, 244, 244);
+  }
+  
+  /* selected link */
+  a:active {
+    color: rgb(57, 57, 57);
+  }
