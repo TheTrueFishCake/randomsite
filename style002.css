@@ -50,20 +50,24 @@ html {
 
 /* unvisited link */
 a:link {
+    font-family: tahomaOld, serif;
     color: rgb(164, 164, 164);
   }
   
   /* visited link */
   a:visited {
+    font-family: tahomaOld, serif;
     color: rgb(211, 211, 211);
   }
   
   /* mouse over link */
   a:hover {
+    font-family: tahomaOld, serif;
     color: rgb(244, 244, 244);
   }
   
   /* selected link */
   a:active {
+    font-family: tahomaOld, serif;
     color: rgb(57, 57, 57);
   }
