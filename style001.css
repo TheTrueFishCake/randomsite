@@ -5,6 +5,11 @@ p {
     font-size: 16px;
     color: #000000;
 }
+li {
+    font-family: tahomaOld, serif;
+    font-size: 16px;
+    color: #000000;
+}
 h1 {
     font-family: tahomaOld, serif;
     color: #000000;
@@ -29,11 +34,9 @@ h6 {
     font-family: tahomaOld, serif;
     color: #000000;
 }
-
 a {
     font-family: tahomaOld, serif;
 }
-
 hr {
     height: 2px;
     background-color: black;
@@ -46,3 +49,27 @@ hr {
     font-weight: normal;
     font-style: normal;
 }
+
+/* unvisited link */
+a:link {
+    font-family: tahomaOld, serif;
+    color: rgb(20, 0, 149);
+  }
+  
+  /* visited link */
+  a:visited {
+    font-family: tahomaOld, serif;
+    color: rgb(17, 0, 200);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    font-family: tahomaOld, serif;
+    color: rgb(66, 48, 255);
+  }
+  
+  /* selected link */
+  a:active {
+    font-family: tahomaOld, serif;
+    color: rgb(47, 0, 255);
+  }
