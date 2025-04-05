@@ -3,48 +3,73 @@
 p {
     font-family: tahomaOld, serif;
     font-size: 16px;
-    color: #000000;
+    color: #ffffff;
+    text-align: center;
 }
 li {
     font-family: tahomaOld, serif;
     font-size: 16px;
-    color: #000000;
+    color: #ffffff;
+    text-align: center;
 }
 ul {
     font-family: tahomaOld, serif;
     font-size: 16px;
-    color: #000000;
+    color: #ffffff;
+    text-align: center;
 }
 h1 {
     font-family: tahomaOld, serif;
-    color: #000000;
+    color: #ffffff;
+    text-align: center;
 }
 h2 {
     font-family: tahomaOld, serif;
-    color: #000000;
+    color: #ffffff;
+    text-align: center;
 }
 h3 {
     font-family: tahomaOld, serif;
-    color: #000000;
+    color: #ffffff;
+    text-align: center;
 }
 h4 {
     font-family: tahomaOld, serif;
-    color: #000000;
+    color: #ffffff;
+    text-align: center;
 }
 h5 {
     font-family: tahomaOld, serif;
-    color: #000000;
+    color: #ffffff;
+    text-align: center;
 }
 h6 {
     font-family: tahomaOld, serif;
-    color: #000000;
+    color: #ffffff;
+    text-align: center;
+}
+img {
+    display: block;
+    margin: 0 auto;
+}
+#leftImage {
+    display: block;
+    margin: 0;
+    float: left;
 }
 a {
     font-family: tahomaOld, serif;
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
 }
 hr {
     height: 2px;
-    background-color: black;
+    background-color: rgb(114, 105, 105);
+}
+
+html {
+    background: #171717
 }
 
 @font-face {

@@ -1,42 +1,57 @@
-/*This is meant to mimic the style of a rotating aquarium night light*/
+/*This is meant to mimic the style of a rotating aquarium night light. I originally used a gif of a fake aquarium, but the file size was too big!*/
 
 p {
     font-family: tahomaOld, serif;
     font-size: 16px;
     color: #ffffff;
+    text-align: center;
 }
 h1 {
     font-family: tahomaOld, serif;
     color: #ffffff;
+    text-align: center;
 }
 h2 {
     font-family: tahomaOld, serif;
     color: #ffffff;
+    text-align: center;
 }
 h3 {
     font-family: tahomaOld, serif;
     color: #ffffff;
+    text-align: center;
 }
 h4 {
     font-family: tahomaOld, serif;
     color: #ffffff;
+    text-align: center;
 }
 h5 {
     font-family: tahomaOld, serif;
     color: #ffffff;
+    text-align: center;
 }
 h6 {
     font-family: tahomaOld, serif;
     color: #ffffff;
+    text-align: center;
 }
 
 hr {
     height: 2px;
     background-color: black;
+    text-align: center;
+}
+
+a {
+    font-family: tahomaOld, serif;
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
 }
 
 html {
-    background: url(images/fishtank.gif) no-repeat center fixed;
+    background: url(images/fishtank.png) no-repeat center fixed;
     background-size: cover;
   }
 
@@ -50,24 +65,28 @@ html {
 
 /* unvisited link */
 a:link {
+    background-color: #e2e2e229;
     font-family: tahomaOld, serif;
-    color: rgb(164, 164, 164);
+    color: rgb(20, 0, 149);
   }
   
   /* visited link */
   a:visited {
+    background-color: #e2e2e26f;
     font-family: tahomaOld, serif;
-    color: rgb(211, 211, 211);
+    color: rgb(17, 0, 200);
   }
   
   /* mouse over link */
   a:hover {
+    background-color: #e2e2e26f;
     font-family: tahomaOld, serif;
-    color: rgb(244, 244, 244);
+    color: rgb(66, 48, 255);
   }
   
   /* selected link */
   a:active {
+    background-color: #e2e2e229;
     font-family: tahomaOld, serif;
-    color: rgb(57, 57, 57);
+    color: rgb(47, 0, 255);
   }
